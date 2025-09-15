@@ -13,8 +13,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-teal-500">FloraChat</h1>
           <div className="flex items-center">
-            <span className="mr-4 font-medium text-gray-800">User Name</span>
-            <img className="h-9 w-9 rounded-full" src={reactLogo} alt="User Avatar" />
+            <span className="mr-3 font-semibold text-gray-700">John Doe</span>
+            <div className="h-9 w-9 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold text-sm">JD</div>
           </div>
         </div>
       </div>

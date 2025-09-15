@@ -15,13 +15,13 @@ const LoginForm = () => {
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
             Username
           </label>
-          <input className="appearance-none border-2 border-gray-200 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-500 transition duration-300" id="username" type="text" placeholder="Your username" />
+          <input className="appearance-none border-2 border-gray-200 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50 transition duration-300" id="username" type="text" placeholder="Your username" />
         </div>
         <div className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
             Password
           </label>
-          <input className="appearance-none border-2 border-gray-200 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-500 transition duration-300" id="password" type="password" placeholder="Your password" />
+          <input className="appearance-none border-2 border-gray-200 rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50 transition duration-300" id="password" type="password" placeholder="Your password" />
         </div>
         <div className="flex items-center justify-between">
           <motion.button
