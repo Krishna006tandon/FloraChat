@@ -14,6 +14,9 @@ function App() {
 
   return (
     <div className="app-container">
+      <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white', textAlign: 'center', padding: '10px', position: 'absolute', width: '100%', zIndex: 1000 }}>
+        This content is provided solely for the preview of our prototype.
+      </div>
       <OceanBackground />
       <Sidebar onSelectExample={handleSelectExample} currentQuery={chatInput} />
       <div className="main-content">

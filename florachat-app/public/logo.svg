@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#005c97" />
+      <stop offset="100%" stop-color="#363795" />
+    </linearGradient>
+    <path id="waveTextPath" d="M 10 40 C 40 10, 60 10, 90 40 S 140 70, 190 40" />
+  </defs>
+
+  <path d="M 0 80 H 200 V 40 C 170 70, 140 70, 110 40 S 60 10, 10 40 V 80 Z" fill="url(#waveGradient)" />
+
+  <text font-family="Verdana, sans-serif" font-size="20" fill="white" letter-spacing="1">
+    <textPath href="#waveTextPath" startOffset="50%" text-anchor="middle">
+      FloraChat
+    </textPath>
+  </text>
+</svg>
